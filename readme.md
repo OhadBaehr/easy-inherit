@@ -28,9 +28,9 @@ Usage:
      
   	// function name will be the class constructor name ⬇️ (must have a name!)
   	const  monkeyFish=inherit([fish,monkey],function  monkeyFish(brain){
-        fish.call(this) // you still need to call "super" manually
-        monkey.call(this)
-	this.brain=brain
+        fish.call(this); // you still need to call "super" manually
+        monkey.call(this);
+	    this.brain=brain;
   	})
     
      const  barnie=new  monkeyFish('large')

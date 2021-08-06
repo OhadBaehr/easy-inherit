@@ -1,6 +1,6 @@
 {
     "name": "easy-inherit",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Simple function for inheritance in javascript",
     "main": "index.cjs",
     "scripts": {
