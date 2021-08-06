@@ -1,0 +1,29 @@
+{
+    "name": "easy-inherit",
+    "version": "1.0.0",
+    "description": "Simple function for inheritance in javascript",
+    "main": "index.cjs",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OhadBaehr/easy-inherit.git"
+    },
+    "exports": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "keywords": [
+      "easy-inherit",
+      "inherit",
+      "inheritance"
+    ],
+    "author": "Ohad Baehr",
+    "license": "Unlicense",
+    "bugs": {
+      "url": "https://github.com/OhadBaehr/easy-inherit/issues"
+    },
+    "homepage": "https://github.com/OhadBaehr/easy-inherit#readme"
+  }
+  
