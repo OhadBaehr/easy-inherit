@@ -1,1 +1,1 @@
-export declare function inherit(parents:function | object,child:function | object);
+export default function inherit(parents:function,child:function): function
