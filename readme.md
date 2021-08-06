@@ -16,12 +16,12 @@ Node:
 Usage:
 
     function  fish(){
-  		    this.growl=()=>"bloop"
+  		this.growl=()=>"bloop"
   	}
   	fish.isFishy=true
   	    
   	function  monkey(){
-  		this.banana=true
+  	    this.banana=true
   	}
   	monkey.prototype.eat=()=>"namnamnam"
   	monkey.isHairy=true
