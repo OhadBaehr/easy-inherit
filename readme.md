@@ -1,22 +1,22 @@
 ## USAGE
 ES6:
 
-    ```js
+```js
     import inherit from ('easy-inherit')
-    ```
+```
         
 
 Node:
 
   
-    ```js
+```js
     const  inherit= require('easy-inherit')
-    ```
+```
 
 
 Usage:
 
-    ```js
+```js
     function  fish(){
   	    this.growl=()=>"bloop"
   	}
@@ -46,4 +46,4 @@ Usage:
   	    }
       */
       console.log(barnie.eat()) //namnamnam
-    ```
+```
