@@ -16,7 +16,7 @@ Node:
 Usage:
 
     function  fish(){
-  		this.growl=()=>"bloop"
+  	    this.growl=()=>"bloop"
   	}
   	fish.isFishy=true
   	    
