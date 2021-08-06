@@ -18,19 +18,19 @@ Usage:
 
 ```js
     function  fish(){
-  	    this.growl=()=>"bloop"
-  	}
-  	fish.isFishy=true
+  	   this.growl=()=>"bloop"
+     }
+     fish.isFishy=true
   	    
-  	function  monkey(){
+     function  monkey(){
   	    this.banana=true
-  	}
-  	monkey.prototype.eat=()=>"namnamnam"
-  	monkey.isHairy=true
+     }
+     monkey.prototype.eat=()=>"namnamnam"
+     monkey.isHairy=true
      
   	// function name will be the class constructor name ⬇️ (must have a name!)
-  	const  monkeyFish=inherit([fish,monkey],function  monkeyFish(brain){
-        fish.call(this); // you still need to call "super" manually
+     const  monkeyFish=inherit([fish,monkey],function  monkeyFish(brain){
+     fish.call(this); // you still need to call "super" manually
      monkey.call(this);
 	    this.brain=brain;
      })
